@@ -1,0 +1,7 @@
+#!/usr/bin/env bash	
+
+USER="brunocosta"
+PATHDIR="/home/$USER/git/beacon"
+#Executable script for systemd
+cd $PATHDIR
+PORT=3333 /home/brunocosta/.npm-global/bin/nodemon start

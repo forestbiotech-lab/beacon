@@ -1,0 +1,10 @@
+[Unit]
+Description=web server with heatmaps.
+After=network.target
+
+[Service]
+User=brunocosta
+ExecStart=/home/brunocosta/git/beacon/bin/beacon
+
+[Install]
+WantedBy=multi-user.target
